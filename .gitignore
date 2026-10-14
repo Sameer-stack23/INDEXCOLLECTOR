@@ -1,0 +1,10 @@
+# Local secrets and environment configuration
+.env
+.env.*
+!.env.example
+config..py
+
+# Generated files that may include request details or credentials
+logs/
+__pycache__/
+*.py[cod]
